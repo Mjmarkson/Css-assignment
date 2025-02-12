@@ -1,0 +1,256 @@
+.div-body {
+    width: 900px;
+    height: 670px;
+    margin: 30px;
+    padding-right: 20px;
+    background-color: rgba(245, 248, 250, 1);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "lato", sans-serif;
+}
+
+.logo img {
+    height: 20px;
+    width: 100px;
+}
+
+.nav-links li a {
+    color: rgba(29, 44, 60, 1);
+    text-decoration: none;
+    font-size: 12px;
+    list-style: none;
+    font-family: "lato", sans-serif;
+}
+
+.button {
+    color: rgba(29, 44, 60, 1);
+    border: 2px solid rgba(100, 110, 122, 1);
+}
+
+.line {
+    border-bottom: 1px solid rgba(224, 230, 234, 1);
+    width: 100%;
+    margin: 20px 0 10px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box1 {
+    width: 350px;
+    height: 500px;
+    padding-left: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 15px 35px 0px rgba(43, 64, 78, 0.1);
+    margin: 0%;
+}
+
+.box2 {
+    width: 200px;
+    height: 500px;
+    background: rgba(17, 121, 191, 1);
+    margin: 0%;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(84, 139, 197, 1);
+    border: 2px solid rgba(84, 139, 197, 1);
+}
+
+.circle3 {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(84, 139, 197, 1);
+    border: 2px solid rgba(84, 139, 197, 1);
+    margin-left: 10px;
+}
+
+.circle3 {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(84, 139, 197, 1);
+    border: 2px solid rgba(84, 139, 197, 1);
+    margin-left: 10px;
+}
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+
+.text {
+    font-family: "lato", sans-serif;
+    font-size: small;
+    margin: 0;
+}
+
+
+input #number {
+    background-color: rgba(237, 239, 242, 1);
+    border: none;
+    /* height: 20px; */
+    width: 280px;
+  
+ } 
+
+ input{
+    background-color: rgba(237, 239, 242, 1);
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+    width: 250;
+    
+  
+ }
+
+ input[type="email"] {
+    width: 275px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: rgba(237, 239, 242, 1);
+    border: none;
+
+}
+
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 120px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 135px;
+}
+
+.form-group2 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+    width: 300px;
+}
+
+.form-group2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.centered-button {
+    padding: 10px 20px 10px; 
+    font-size: 12px; 
+    color: white; 
+    background: rgba(3, 142, 125, 1);
+    width: 260px;
+    border: none; 
+    border-radius: 4px; 
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 15px 30px;
+
+}
+
+.warranty{
+
+   font-family: "lato", sans-serif;
+   color: white ;
+}
+
+.circle4{
+    width: 14px;
+    height: 14px;
+    background-color:rgba(84, 139, 197, 1);
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px; 
+}
+
+.container2 {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 4px; */
+}
+
+.warranty{
+    padding: 20px;
+    font-family: "lato", sans-serif;
+    font-size: 13px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile img{
+    border-radius: 50px;
+}
